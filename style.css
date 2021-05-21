@@ -44,3 +44,16 @@ h1 {font-size: 60px ; display: inline;}
     border:solid #212121 5px; border-top: solid 36px #212111; 
     border-radius: 5px;
 }
+
+.subimg1{
+    background-image: url(img/01.PNG); background-size: 100%; width:850px; height:310px;
+    background-position: 0px 0px; background-repeat: no-repeat;
+    border:solid #212121 5px; border-top: solid 36px #212111; 
+    border-radius: 5px;
+
+}
+
+th{color: white; background-color:#212121 ;}
+td{color: white; background-color: #212121;}
+
+table {margin-bottom: 50px;}
