@@ -4,7 +4,7 @@ body{
     width: 960px;
 }
 
-h1 {font-size: 60px ; text-align: center;}
+h1 {font-size: 60px ; display: inline;}
 
 #menu {
     height: 0px; width: 850px;
