@@ -1,0 +1,46 @@
+body{
+    background-color:;
+    margin: 0 auto;
+    width: 960px;
+}
+
+h1 {font-size: 60px ; text-align: center;}
+
+#menu {
+    height: 0px; width: 850px;
+}
+
+#menu ul li {
+    list-style: none; color: white; background-color: #212121; float: left; text-align: center;
+    line-height: 30px; vertical-align: middle;
+}
+
+#menu .menuLink {
+    text-decoration:none; display: block; font-weight: bold; 
+    color: white; width: 150px; font-size: 14px; border: 3px solid #212121;
+}
+
+#menu .menuLink:hover {
+    background-color: #116151;
+}
+
+#menu .menu2 .dropdown {display:none;} #menu .menu2:hover .dropdown{ display: block; } #menu .menu2:hover .menuLink {background-color: #116151;}
+#menu .menu3 .dropdown {display:none;} #menu .menu3:hover .dropdown{ display: block; } #menu .menu3:hover .menuLink {background-color: #116151;}
+#menu .dropdown{width: 150px;}
+
+#menu .dropdown a {
+    text-align: center; font-size: 15px; text-decoration: none;
+    font-weight: bold; color: white;
+}
+
+#menu .dropdown a:hover{
+    color:#10a587;
+}
+#menu dd {margin: 0;}
+
+.mainimg {
+    background-image: url(img/00.jpg); background-size: 100%; width:850px; height:478px;
+    background-position: 0px 0px; background-repeat: no-repeat;
+    border:solid #212121 5px; border-top: solid 36px #212111; 
+    border-radius: 5px;
+}
