@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>MAIN</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @media (max-width:500px){
+            #menu .inmenu{background-color:#116151;}
+            #menu .menu4 .dropdown {display:block;}
+            #menu .menu4 .dropdown .inhere{color: #10a587;}
+        }
+    </style>
 </head>
 <body>
 
@@ -34,9 +41,9 @@
             </li>
 
             <li class="menu4">
-                <a class="menuLink" href="html3_0.html">제작</a>
+                <a class="menuLink inmenu" href="html3_0.html">제작</a>
                 <dl class="dropdown">
-                    <dd><a href="html3_0.html">[ T1 ] FOOD</a></dd>
+                    <dd><a class="inhere" href="html3_0.html">FOOD</a></dd>
                 </dl>
             </li>
             <li><a class="menuLink" href="#">문의</a></li>

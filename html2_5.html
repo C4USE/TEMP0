@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>캐릭터 정보</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @media (max-width:500px){
+            #menu .inmenu{background-color:#116151;}
+            #menu .menu3 .dropdown {display:block;}
+            #menu .menu3 .dropdown .inhere{color: #10a587;}
+        }
+    </style>
 </head>
 <body>
 
@@ -21,14 +28,14 @@
                 </dl>
             </li>
             <li class="menu3">
-                <a class="menuLink" href="html2_0.html">무기 마스터리</a>
+                <a class="menuLink inmenu" href="html2_0.html">무기 마스터리</a>
                 <dl class="dropdown">
                     <dd><a href="html2_0.html">STRAIGHT SWORD</a></dd>
                     <dd><a href="html2_1.html">HATCHET</a></dd>
                     <dd><a href="html2_2.html">WAR HAMMER</a></dd>
                     <dd><a href="html2_3.html">BOW</a></dd>
                     <dd><a href="html2_4.html">MUSKET</a></dd>
-                    <dd><a href="html2_5.html">FIRE STAFE</a></dd>
+                    <dd><a class="inhere" href="html2_5.html">FIRE STAFE</a></dd>
                     <dd><a href="html2_6.html">LIFE STAFE</a></dd>
                 </dl>
             </li>
@@ -36,7 +43,7 @@
             <li class="menu4">
                 <a class="menuLink" href="html3_0.html">제작</a>
                 <dl class="dropdown">
-                    <dd><a href="html3_0.html">[ T1 ] FOOD</a></dd>
+                    <dd><a href="html3_0.html">FOOD</a></dd>
                 </dl>
             </li>
             <li><a class="menuLink" href="#">문의</a></li>

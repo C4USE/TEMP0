@@ -43,31 +43,35 @@ h1 {font-size: 60px ; display: inline;}
 .mainimg {
     background-image: url(img/00.jpg); background-size: 130%; width:850px; height:621px;
     background-position: -103px 0px; background-repeat: no-repeat;
-    border:solid #212121 5px; border-top: solid 36px #212111; 
+    border:solid #212121 5px; border-top: solid 38px #212111; 
     border-radius: 5px;
 }
 
 .subimg1{
     background-image: url(img/01.PNG); background-size: 100%; width:850px; height:310px;
     background-position: 0px 0px; background-repeat: no-repeat;
-    border:solid #212121 5px; border-top: solid 36px #212111; 
+    border:solid #212121 5px; border-top: solid 38px #212111; 
     border-radius: 5px;
 }
 
 .subimg2{
     background-image: url(img/02.jpg); background-size: 115%; width: 850px; height: 310px;
     background-position: -54px -88px; background-repeat: no-repeat;
-    border:solid #212121 5px; border-top: solid 36px #212111; 
+    border:solid #212121 5px; border-top: solid 38px #212111; 
     border-radius: 5px;
 }
 
 .subimg3{
     background-image: url(img/03.jpg); background-size: 115%; width: 850px; height: 310px;
     background-position: -54px -88px; background-repeat: no-repeat;
-    border:solid #212121 5px; border-top: solid 36px #212111; 
+    border:solid #212121 5px; border-top: solid 38px #212111; 
     border-radius: 5px;
 }
 
 th{color: white; background-color:#212121 ;}
 td{color: white; background-color: #212121;}
 .font14 th{font-size: 14px;}
+
+@media (max-width:500px) {
+    
+}
