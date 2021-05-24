@@ -68,6 +68,14 @@ h1 {font-size: 60px ; display: inline;}
     border-radius: 5px;
 }
 
+.subimg4{
+    background-image: url(img/04.jpg); background-size: 125%; width: 850px; height: 405px;
+    background-position: -106px -65px; background-repeat: no-repeat;
+    border:solid #212121 5px; border-top: solid 38px #212111; 
+    border-radius: 5px;
+}
+
+
 th{color: white; background-color:#212121 ;}
 td{color: white; background-color: #212121;}
 .font14 th{font-size: 14px;}
