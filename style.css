@@ -41,8 +41,8 @@ h1 {font-size: 60px ; display: inline;}
 #menu dd {margin: 0;}
 
 .mainimg {
-    background-image: url(img/00.jpg); background-size: 130%; width:850px; height:621px;
-    background-position: -103px 0px; background-repeat: no-repeat;
+    background-image: url(img/00.jpg); background-size: 110%; width:850px; height:310px;
+    background-position: -20px -125px; background-repeat: no-repeat;
     border:solid #212121 5px; border-top: solid 38px #212111; 
     border-radius: 5px;
 }
@@ -79,6 +79,12 @@ h1 {font-size: 60px ; display: inline;}
 th{color: white; background-color:#212121 ;}
 td{color: white; background-color: #212121;}
 .font14 th{font-size: 14px;}
+
+.mainvid{
+        border:solid #212121 5px; border-top: solid 0px #212111;
+        border-radius: 5px;
+        height: 480px;
+}
 
 @media (max-width:500px) {
     
